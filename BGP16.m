@@ -1,4 +1,3 @@
-aaaCanBeDelete_startSDPNALPlus
 diary on
 for n=10:10:100
     N=ones(1,n)+1;
