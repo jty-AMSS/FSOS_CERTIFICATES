@@ -1,4 +1,3 @@
-diary on
 for n=10:10:100
     N=ones(1,n)+1;
     f=CZ(N);
@@ -29,4 +28,3 @@ for n=10:10:100
     [Q,lb3(n/10),Index,A,B]=FastLowerBound_Poly(f,3,range,n*5,1e4);
     disp(lb3');
 end
-diary off
