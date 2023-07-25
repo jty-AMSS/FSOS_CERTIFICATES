@@ -35,8 +35,8 @@ to compute the polynomial/rational FSOS, and use
 ```
  [err,H]=CheckFSOS(f,Index,Q)
 ```
-to check the polynomial FSOS cetrificate ,where $H$ is a cell of functions on group $G$,  err equals to $\sum_{i} |H{i}|^2$.
+to check the polynomial FSOS cetrificate ,where $H$ is a cell of functions on group $G$,  err equals to $\sum_{i} |H\{i\}|^2$.
 ```
 [err,p,q,H_1,H_2]=CheckFSOS_rational(f,S,T,U,V) 
 ```
-to check the rational FSOS, where err equals to $p-q \cdot f$, and  $H_1$, $H_2$  are cells of functions on group $G$, with  $p=\sum_{i}|H_1{i}|^2$, $q=\sum_{i}|H_2{i}|^2$. 
+to check the rational FSOS, where err equals to $p-q \cdot f$, and  $H_1$, $H_2$  are cells of functions on group $G$, with  $p=\sum_{i}|H_1\{i\}|^2$, $q=\sum_{i}|H_2\{i\}|^2$. 
