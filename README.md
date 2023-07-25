@@ -25,11 +25,11 @@ end
 ### compute polynomial/rational FSOS
 Let $f$ be a function on fintie abelian group with range in set S, one can use 
 ```
- [Q,lb,Index,A,B,g,Suppf_lb,X0]=short_proof_poly_fsos(f,d,S,ADMmaxiterCoeff);
+ [Q,lb,Index,A,B]=short_proof_poly_fsos(f,d,S,ADMmaxiterCoeff);
 ```
 and
 ```
-short_proof_rational_fsos(f,d,S,ADMmaxiterCoeff)
+ [U,V,S,T]=short_proof_rational_fsos(f,d,S,ADMmaxiterCoeff)
 ```
 to compute the polynomial/rational FSOS, and use
 ```
