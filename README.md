@@ -42,8 +42,12 @@ to check the polynomial FSOS cetrificate ,where $H$ is a cell of functions on gr
 to check the rational FSOS, where err equals to $p-q \cdot f$, and  $H_1$, $H_2$  are cells of functions on group $G$, with  $p=\sum_{i}|H_1\{i\}|^2$, $q=\sum_{i}|H_2\{i\}|^2$. 
 
 # Demos
-DEMO.m are the computation of examples shown in Section 3-Section 5 \\
-BGP.m are the examples in Section 6.1\\
-Demo_3sat.m are the examples in Section 6.2.1\\
-GraphExample.m and GraphExample_SAT.m are the examples in Section 6.3.1\\
+DEMO.m are the computation of examples shown in Section 3-Section 5 
+
+BGP.m are the examples in Section 6.1
+
+Demo_3sat.m are the examples in Section 6.2.1
+
+GraphExample.m and GraphExample_SAT.m are the examples in Section 6.3.1
+
 PHP_Example.m are the examples in Section 6.3.2
